@@ -16,6 +16,5 @@ int main(void)
 
 void print_alphabet(void);
 {
-	char a = alphabet
-	puts("%s", a)
+	puts("the alphabet");
 }
