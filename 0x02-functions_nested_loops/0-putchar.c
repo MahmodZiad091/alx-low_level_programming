@@ -1,13 +1,15 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main : A program that print _putchart
- *
- * Return: 0 (Success);
- */
-
-int main(void)
+*print_alphabet - function that print alphabet
+*it prints in lowercase
+*Return: no return
+*/
+void print_alphabet(void)
 {
-puts("_putchar");
-return (0);
+int letter;
+for (letter = 'a'; letter <= 'z'; letter++)
+{
+_putchar (letter);
+}
+_putchar (10);
 }
